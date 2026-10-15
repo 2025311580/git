@@ -1,0 +1,30 @@
+# Build output
+Debug/
+Release/
+build/
+
+# IDE files
+# .project/.cproject/.ccsproject/.settings 是 CCS 打开工程的必需文件，不能忽略
+.theia/
+.launches/
+
+# Clangd cache
+.clangd/
+.clangd
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Object and dependency files
+*.o
+*.obj
+*.out
+*.hex
+*.map
+*.bin
+*.d
+
+# Editor config
+.vscode/
+.idea/

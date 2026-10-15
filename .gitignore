@@ -1,0 +1,30 @@
+# ── 构建产物（勿入库） ──
+Debug/
+Release/
+build/
+*.o
+*.obj
+*.out
+*.hex
+*.map
+*.bin
+*.d
+
+# ── 串口抓包日志（追加写、跨固件版本累积，且体积大） ──
+# 必须挡住：CCS 面板的"丢弃更改"会删掉未跟踪文件且不进回收站
+_logs/
+
+# ── AI / IDE 本机配置（每台机器不同，勿入库） ──
+# 注意：base3.6/CLAUDE.md 是工程文档，已在版本库里，不受影响
+/.claude/
+/.mcp.json
+/CLAUDE.md
+.clangd/
+
+# ── 编辑器 / 系统 ──
+.vscode/
+.idea/
+.theia/
+.launches/
+Thumbs.db
+.DS_Store
